@@ -1,0 +1,392 @@
+/* Body */
+body {
+    font-family: "Cormorant Garamond", serif;
+}
+
+:root {
+    --primary-color: #796645;
+    --secondary-color: #4d683a;
+    --accent-color: #938070;
+    --background-light: #ebe0de; /* Nova cor adicionada */
+    --text-color: rgb(0, 0, 0);
+}
+
+/* Navbar */
+.navbar-text p,
+.custom-header .nav-link,
+.texto h5,
+footer h5,
+footer p,
+footer a,
+.servicos h5,
+.blog h5 {
+    font-weight: 300;
+}
+
+footer h5,
+.servicos h5,
+.blog h5 {
+    font-weight: 400;
+}
+
+.custom-header .nav-link:hover,
+.servicos .nav-link:hover,
+.blog .nav-link:hover {
+    font-weight: 600;
+}
+
+/* Estilo para seções específicas */
+.livros,
+.servicos,
+.blog 
+
+/* Navbar links */
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ccc;
+}
+
+/* Navbar height */
+.navbar {
+    height: 4rem;
+}
+
+.navbar-text {
+    line-height: 2rem; /* Centraliza verticalmente na navbar */
+}
+
+.text-center p {
+    color: #851212;
+}
+
+/* Fontes específicas */
+.font-cormorant {
+    font-family: "Cormorant Garamond", serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.text-center .font-cormorant2 {
+    font-family: "Cormorant Garamond", serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+/* Custom Header */
+.custom-header {
+    background: linear-gradient(180deg, #55663b, #55663b, #55663b, #9c7f41);
+    height: 25rem;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+.custom-header .linques .nav-item a {
+    margin-right: 40px;
+    font-family: "Cormorant Garamond", serif;
+    letter-spacing: 4px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+/* Imagem redonda */
+.rounded-circle {
+    width: 400px;
+}
+
+.autora {
+    padding: 20rem;
+}
+
+/* Texto */
+.texto h5 {
+    font-family: "Cormorant Garamond", serif;
+    margin-top: 3rem;
+}
+
+/* Alex Brush */
+.font-alex-brush {
+    font-family: "Alex Brush", cursive;
+    font-size: 1.5rem;
+}
+
+/* Destaques */
+.destaques h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.destaques p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.destaques .blockquote-footer {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.destaques .btn {
+    font-size: 1.25rem;
+    padding: 10px 30px;
+}
+
+/* Contatos */
+.contatos {
+    font-family: "Cormorant Garamond", serif;
+}
+
+/* Servicos */
+.servicos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.servicos p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.servicos .btn {
+    font-size: 1.25rem;
+    padding: 10px 30px;
+}
+
+/* Blog */
+.blog h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.blog p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.blog .btn {
+    font-size: 1.25rem;
+    padding: 10px 30px;
+}
+
+/* Paleta de cores */
+:root {
+    --primary-color: #796645;
+    --secondary-color: #4d683a;
+    --accent-color: #938070;
+    --text-color: rgb(0, 0, 0);
+}
+
+/* Estilos para a seção de serviços */
+#servicos {
+    color: var(--text-color);
+}
+
+#servicos h2 {
+    color: var(--accent-color);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#servicos p {
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.servico-card {
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    color: var(--text-color);
+}
+
+.servico-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.servico-card h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+
+.servico-card i {
+    color: var(--accent-color);
+    margin-bottom: 15px;
+}
+
+/* Estilos para a seção Sobre Nós */
+#sobre-nos {
+    background-color: #ebe0de; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    padding: 0px 0;
+    border-radius: 15px;
+}
+
+#sobre-nos h2 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#sobre-nos h4 {
+    color: var(--accent-color);
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#sobre-nos p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.sobre-nos-img {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+}
+
+.sobre-nos-box {
+    color: var(--text-color);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+.sobre-nos-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.sobre-nos-box h4 {
+    color: var(--text-color);
+}
+
+.sobre-nos-box p {
+    color: var(--text-color);
+}
+
+/* Estilos para a seção Blog */
+#blog {
+    background-color: #ebe0de;
+    padding: 60px 0;
+    border-radius: 15px;
+    margin-top: 3rem;
+}
+
+#blog h2 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.blog-box {
+    color: var(--text-color);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.blog-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.blog-box h5 {
+    color: var(--accent-color);
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.blog-box p {
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+/* Estilos para a seção Depoimentos */
+#depoimentos {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#depoimentos h2 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.depoimento-box {
+    color: var(--text-color);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.depoimento-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.depoimento-box blockquote {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.depoimento-box footer {
+    color: var(--accent-color);
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/* Estilos para desktop */
+.autora {
+    padding: 20rem; /* Padding original */
+}
+
+/* Estilos para dispositivos móveis (telas menores que 768px) */
+@media (max-width: 768px) {
+    .autora {
+        padding: 0; /* Remove o padding em telas menores */
+    }
+
+    #home .row {
+        flex-direction: column; /* Faz a imagem ficar acima do texto */
+    }
+
+    #home .col-md-6 {
+        width: 100%; /* Faz cada coluna ocupar 100% da largura */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    #home img {
+        margin-bottom: 20px; /* Adiciona espaçamento abaixo da imagem */
+    }
+
+    /* Navbar height */
+    .navbar {
+        height: 5rem;
+    }
+
+    .autora {
+        padding: 2rem;
+    }
+    .footer {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        align-items: center; /* Centraliza os itens no eixo vertical */
+        text-align: center; /* Centraliza o texto */
+    }
+}
