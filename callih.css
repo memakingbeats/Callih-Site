@@ -1,12 +1,12 @@
 /* Body */
 body {
-    font-family: "Cormorant Garamond", serif;
+    font-family: "Montserrat", sans-serif; /* Aplica a fonte Montserrat */
 }
 
 :root {
     --primary-color: #796645;
     --secondary-color: #4d683a;
-    --accent-color: #938070;
+    --accent-color: #e8d5cf;
     --background-light: #ebe0de; /* Nova cor adicionada */
     --text-color: rgb(0, 0, 0);
 }
@@ -43,11 +43,62 @@ footer h5,
 /* Navbar links */
 .navbar-brand,
 .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #55663b;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #ccc;
+    color: #55663b;
+}
+
+.container-pagina5 {
+    width: 100%; /* Ocupar toda a largura da viewport */
+    height: auto; /* Altura total da viewport */
+    display: flex; /* Usado para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: none; /* Cor de fundo opcional */
+    margin-top: 2rem;
+}
+
+/* Torna a imagem responsiva */
+.container-pagina5 img {
+    max-width: 100%; /* Impede que a imagem exceda a largura do container */
+    max-height: auto; /* Impede que a imagem exceda a altura do container */
+    object-fit: contain; /* Mantém a proporção da imagem */
+}
+
+.container-pagina6 {
+    width: 100%; /* Ocupar toda a largura da viewport */
+    height: auto; /* Altura total da viewport */
+    display: flex; /* Usado para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: none; /* Cor de fundo opcional */
+    margin-top: 2rem;
+}
+
+/* Torna a imagem responsiva */
+.container-pagina6 img {
+    max-width: 100%; /* Impede que a imagem exceda a largura do container */
+    max-height: auto; /* Impede que a imagem exceda a altura do container */
+    object-fit: contain; /* Mantém a proporção da imagem */
+}
+
+.container-pagina7 {
+    width: 100%; /* Ocupar toda a largura da viewport */
+    height: auto; /* Altura total da viewport */
+    display: flex; /* Usado para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: none; /* Cor de fundo opcional */
+    margin-top: 2rem;
+}
+
+/* Torna a imagem responsiva */
+.container-pagina7 img {
+    max-width: 100%; /* Impede que a imagem exceda a largura do container */
+    max-height: auto; /* Impede que a imagem exceda a altura do container */
+    object-fit: contain; /* Mantém a proporção da imagem */
 }
 
 /* Navbar height */
@@ -59,51 +110,150 @@ footer h5,
     line-height: 2rem; /* Centraliza verticalmente na navbar */
 }
 
+.title2 {
+    color: #4d683a;
+    margin-left: 4rem;
+}
+.subtitle2 {
+    position: absolute;
+    font-style: italic; /* Aplica itálico */
+    font-family: "Montserrat", sans-serif; /* Aplica a fonte Montserrat */
+}
+
+.somos2 {
+    margin-left: 4rem;
+    font-family: "Montserrat", sans-serif; /* Aplica a fonte Montserrat */
+}
+
+.title {
+    color: #4d683a;
+    margin-left: 4rem;
+}
+.subtitle {
+    position: absolute;
+    font-style: italic; /* Aplica itálico */
+    font-family: "Montserrat", sans-serif; /* Aplica a fonte Montserrat */
+}
+
+.somos {
+    margin-left: 4rem;
+    font-family: "Montserrat", sans-serif; /* Aplica a fonte Montserrat */
+}
+
+.linha1 {
+    width: 500px;
+    border: 1px solid #4d683a91;
+    margin-left: 0;
+}
+.linha {
+    width: 500px;
+    border: 1px solid #4d683a91;
+    margin-left: 0;
+}
+
 .text-center p {
-    color: #851212;
+    color: #c59787;
 }
 
 /* Fontes específicas */
 .font-cormorant {
-    font-family: "Cormorant Garamond", serif;
+    font-family: "Montserrat", sans-serif; /* Aplica a fonte Montserrat */
     letter-spacing: 2px;
     font-size: 12px;
 }
 
 .text-center .font-cormorant2 {
-    font-family: "Cormorant Garamond", serif;
+    font-family: "Montserrat", sans-serif; /* Aplica a fonte Montserrat */
     letter-spacing: 2px;
     font-size: 12px;
 }
 
 /* Custom Header */
 .custom-header {
-    background: linear-gradient(180deg, #55663b, #55663b, #55663b, #9c7f41);
+    background: linear-gradient(
+        100deg,
+        /* #55663b, */ #6b7e4e,
+        /* #8ea46f, */ #8ea46f,
+        #e8d5cf,
+        #e8d5cf,
+        #e8d5cf,
+        #f0e1dc
+    );
     height: 25rem;
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 98% 0%, 100% 90%, 0% 100%);
 }
 
 .custom-header .linques .nav-item a {
     margin-right: 40px;
-    font-family: "Cormorant Garamond", serif;
+    font-family: "Montserrat", sans-serif; /* Aplica a fonte Montserrat */
     letter-spacing: 4px;
     font-size: 14px;
-    color: rgb(255, 255, 255);
-}
-
-/* Imagem redonda */
-.rounded-circle {
-    width: 400px;
+    color: #55663b;
 }
 
 .autora {
-    padding: 20rem;
+    padding: 10rem;
+    background: linear-gradient(
+        100deg,
+        /* #55663b, */ #6b7e4e,
+        /* #8ea46f, */ #8ea46f,
+        #e8d5cf,
+        #e8d5cf,
+        #e8d5cf,
+        #f0e1dc
+    );
+
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.entrega {
+    padding: 10rem;
 }
 
 /* Texto */
-.texto h5 {
-    font-family: "Cormorant Garamond", serif;
+.row .texto h5 {
+    font-family: "Montserrat", sans-serif; /* Aplica a fonte Montserrat */
     margin-top: 3rem;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+.balao {
+    position: absolute;
+    width: 40rem !important;
+    height: 30rem;
+    left: -10rem;
+    top: -15rem;
+    /* background-color: #6b7e4e; */
+}
+
+.texto-item {
+    position: relative;
+}
+
+.bullet-point {
+    position: absolute;
+    left: -20px;
+    top: 7%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    color: #6b7e4e;
+}
+
+.texto-item-1 {
+    margin-left: 200px;
+    color: #6b7e4e;
+}
+
+.texto-item-2 {
+    margin-left: 100px;
+    color: #6b7e4e;
+}
+
+.texto-item-3 {
+    margin-left: 0;
+    color: #6b7e4e;
 }
 
 /* Alex Brush */
@@ -358,7 +508,8 @@ footer h5,
 }
 
 /* Estilos para dispositivos móveis (telas menores que 768px) */
-@media (max-width: 768px) {
+
+@media (max-width: 480px) {
     .autora {
         padding: 0; /* Remove o padding em telas menores */
     }
@@ -388,5 +539,302 @@ footer h5,
         flex-direction: column; /* Empilha os itens verticalmente */
         align-items: center; /* Centraliza os itens no eixo vertical */
         text-align: center; /* Centraliza o texto */
+    }
+
+    .custom-header {
+        height: 45rem;
+    }
+
+    .title {
+        color: #4d683a;
+        margin-left: 2rem;
+    }
+
+    .somos {
+        margin-left: 2rem;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    .title2 {
+        color: #4d683a;
+        margin-left: -8rem;
+    }
+
+    .somos2 {
+        margin-top: 2rem;
+        font-size: 30px;
+    }
+
+    .arrow {
+        width: 10px;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .balao {
+        display: none;
+    }
+    .linha1 {
+        width: 250px;
+        border: 1px solid #4d683a91;
+        margin-left: -1.5rem;
+    }
+    .linha {
+        width: 250px;
+        border: 1px solid #4d683a91;
+        margin-left: 0rem;
+        background-color: #6b7e4e !important;
+    }
+
+    .texto-item {
+        position: relative;
+        margin-left: -50px; /* Remove o margin-left */
+        text-align: left; /* Alinha os textos à esquerda */
+    }
+
+    .bullet-point {
+        position: absolute; /* Remove o posicionamento absoluto */
+        font-size: 30px; /* Ajusta o tamanho do bullet-point se necessário */
+    }
+
+    .col-md-3 {
+        margin-bottom: 15px; /* Ajusta a margem da imagem */
+    }
+
+    .col-md-6 {
+        margin-bottom: 15px; /* Ajusta a margem do texto */
+    }
+}
+@media (min-width: 481px) and (max-width: 900px) {
+    .autora {
+        padding: 0; /* Remove o padding em telas menores */
+    }
+    .somos {
+        margin-left: -10px;
+        font-size: 50px;
+        margin-top: 40px;
+    }
+
+    #home .row {
+        flex-direction: column; /* Faz a imagem ficar acima do texto */
+    }
+
+    #home .col-md-6 {
+        width: 100%; /* Faz cada coluna ocupar 100% da largura */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    #home img {
+        margin-bottom: 20px; /* Adiciona espaçamento abaixo da imagem */
+    }
+
+    /* Navbar height */
+    .navbar {
+        height: 5rem;
+    }
+
+    .autora {
+        padding: 2rem;
+    }
+    .footer {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        align-items: center; /* Centraliza os itens no eixo vertical */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .custom-header {
+        height: 45rem;
+    }
+
+    .title {
+        color: #4d683a;
+        margin-left: 2rem;
+    }
+
+    .somos {
+        margin-left: 4rem;
+    }
+
+    .title2 {
+        color: #4d683a;
+        margin-left: -8rem;
+    }
+
+    .somos2 {
+        margin-top: 2rem;
+        font-size: 30px;
+    }
+
+    .arrow {
+        width: 10px;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .balao {
+        display: none;
+    }
+    .linha1 {
+        width: 300px;
+        border: 1px solid #4d683a91;
+        margin-left: 0rem;
+    }
+    .linha {
+        width: 300px;
+        border: 1px solid #4d683a91;
+        margin-left: 0rem;
+        background-color: #6b7e4e !important;
+    }
+
+    .texto-item {
+        position: relative;
+        margin-left: -50px; /* Remove o margin-left */
+        text-align: left; /* Alinha os textos à esquerda */
+    }
+
+    .bullet-point {
+        position: absolute; /* Remove o posicionamento absoluto */
+        font-size: 30px; /* Ajusta o tamanho do bullet-point se necessário */
+    }
+
+    .col-md-3 {
+        margin-bottom: 15px; /* Ajusta a margem da imagem */
+    }
+
+    .col-md-6 {
+        margin-bottom: 15px; /* Ajusta a margem do texto */
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1023px) {
+    .autora {
+        padding: 0; /* Remove o padding em telas menores */
+    }
+    .somos {
+        margin-left: -10px;
+        font-size: 50px;
+        margin-top: 40px;
+    }
+
+    #home .row {
+        flex-direction: column; /* Faz a imagem ficar acima do texto */
+    }
+
+    #home .col-md-6 {
+        width: 100%; /* Faz cada coluna ocupar 100% da largura */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    #home img {
+        margin-bottom: 20px; /* Adiciona espaçamento abaixo da imagem */
+    }
+
+    /* Navbar height */
+    .navbar {
+        height: 5rem;
+    }
+
+    .autora {
+        padding: 2rem;
+    }
+    .footer {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        align-items: center; /* Centraliza os itens no eixo vertical */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .custom-header {
+        height: 45rem;
+    }
+
+    .title {
+        color: #4d683a;
+        margin-left: 2rem;
+    }
+
+    .somos {
+        margin-left: 4rem;
+    }
+
+    .title2 {
+        color: #4d683a;
+        margin-left: -5rem;
+    }
+
+    .somos2 {
+        margin-top: 2rem;
+        font-size: 30px;
+    }
+
+    .arrow {
+        width: 10px;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .balao {
+        display: none;
+    }
+    .linha1 {
+        width: 300px;
+        border: 1px solid #4d683a91;
+        margin-left: 0rem;
+    }
+    .linha {
+        width: 300px;
+        border: 1px solid #4d683a91;
+        margin-left: 0rem;
+        background-color: #6b7e4e !important;
+    }
+
+    .texto-item {
+        position: relative;
+        margin-left: 0px; /* Remove o margin-left */
+        text-align: left; /* Alinha os textos à esquerda */
+        background-color: #6c757d;
+    }
+
+    .bullet-point {
+        position: absolute; /* Remove o posicionamento absoluto */
+        font-size: 30px; /* Ajusta o tamanho do bullet-point se necessário */
+    }
+
+    .col-md-3 {
+        margin-bottom: 15px; /* Ajusta a margem da imagem */
+    }
+
+    .col-md-6 {
+        margin-bottom: 15px; /* Ajusta a margem do texto */
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .texto1 {
+        display: flex;
+        width: 70vw;
+
+        margin-left: -7rem;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .texto1 {
+        display: flex;
+        width: 70vw;
+
+        margin-left: -5rem;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1479px) {
+    .texto1 {
+        display: flex;
+        width: 70vw;
+
+        margin-left: -7rem;
     }
 }

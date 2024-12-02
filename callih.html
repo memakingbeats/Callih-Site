@@ -14,7 +14,7 @@
         />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;600&display=swap"
             rel="stylesheet"
         />
         <link rel="icon" href="./imagens/favicon.jpg" type="image/jpeg" />
@@ -42,7 +42,7 @@
         <div class="custom-header">
             <div class="container text-center">
                 <img
-                    src="./imagens/logo.jpg"
+                    src="./imagens/logoNew.png"
                     alt="Logo"
                     class="mt-3"
                     style="width: 200px; height: auto"
@@ -70,32 +70,175 @@
             </div>
         </div>
         <div id="home" class="container-fluid autora py-5">
-            <div class="row">
-                <div class="col-md-6">
+            <!-- Título e subtítulo -->
+            <div class="row mb-4 title">
+                <div class="col-12">
+                    <!-- Subtítulo e título lado a lado -->
+                    <div class="d-flex">
+                        <p
+                            class="h5 text-uppercase text-muted me-2 mb-0 subtitle"
+                        >
+                            Quem
+                        </p>
+                        <h2 class="display-4 mb-0 text-uppercase somos">
+                            Somos
+                        </h2>
+                    </div>
+                    <!-- Linha estilizada abaixo do título -->
+                    <hr class="linha1" />
+                </div>
+            </div>
+
+            <!-- Conteúdo principal -->
+            <div
+                class="row justify-content-center align-items-center text-center texto1"
+                style="flex-wrap: wrap"
+            >
+                <!-- Texto à esquerda -->
+                <div
+                    class="col-md-3 texto text-md-end text-center mb-3 mb-md-0 texto1"
+                >
+                    <h5>
+                        Aline é a mãe do Caio e esposa do Davi, formada em
+                        Processos Gerenciais e Certificada Consultora de Saúde
+                        pelo Hospital Albert Einstein, experiência de 26 anos em
+                        laboratorio de análises clinica e hospital dia.
+                    </h5>
+                </div>
+
+                <!-- Seta à esquerda -->
+                <div
+                    class="col-md-1 d-flex justify-content-center align-items-center"
+                >
                     <img
-                        src="./imagens/dupla.jpg"
-                        alt="Callih"
-                        class="rounded-circle img-fluid"
+                        src="./imagens/arrow.png"
+                        alt="Seta"
+                        class="img-fluid arrow"
+                        style="transform: rotate(180deg)"
                     />
                 </div>
-                <div class="col-md-6 texto">
+
+                <!-- Imagem centralizada -->
+                <div class="col-md-3">
+                    <img
+                        src="./imagens/dupla.jpeg"
+                        alt="Callih"
+                        class="rounded-circle img-fluid mx-auto d-block"
+                    />
+                </div>
+
+                <!-- Seta à direita -->
+                <div
+                    class="col-md-1 d-flex justify-content-center align-items-center"
+                >
+                    <img
+                        src="./imagens/arrow.png"
+                        alt="Seta"
+                        class="img-fluid arrow"
+                    />
+                </div>
+
+                <!-- Texto à direita -->
+                <div class="col-md-3 texto text-md-start text-center">
                     <h5>
-                        A CALLIH Gestão em Saúde nasceu da união de duas
-                        profissionais apaixonadas pela área da saúde e
-                        comprometidas com a excelência em gestão. Com mais de 25
-                        anos de experiência combinada, Aline Hentz e Carla
-                        Pandolfo uniram suas expertises para criar soluções
-                        personalizadas e eficientes para clínicas e consultórios
-                        em todo o Brasil. Nossa missão é transformar a jornada
-                        do paciente através de processos ágeis e eficientes,
-                        garantindo a sustentabilidade e o sucesso do seu
-                        negócio. Acreditamos que uma gestão baseada em dados e
-                        focada na satisfação do paciente é o caminho para um
-                        futuro mais próspero na saúde.
+                        Carla é a mãe da Bruna e do Murilo, esposa do Vandré,
+                        formada em Gestão Financeira, experiência de 27 anos em
+                        operadora de saúde, hospital dia, hospital e Gestão de
+                        clinica Médica.
                     </h5>
                 </div>
             </div>
         </div>
+
+        <div id="home" class="container-fluid entrega py-5">
+            <!-- Título e subtítulo -->
+            <div class="row mb-4 title2">
+                <div class="col-12">
+                    <!-- Subtítulo e título lado a lado -->
+                    <div class="d-flex">
+                        <p
+                            class="h5 text-uppercase text-muted me-2 mb-0 subtitle2"
+                        >
+                            O que
+                        </p>
+                        <h2 class="display-4 mb-0 text-uppercase somos2">
+                            Entregamos
+                        </h2>
+                    </div>
+                    <!-- Linha estilizada abaixo do título -->
+                    <hr class="linha" />
+                </div>
+            </div>
+
+            <!-- Conteúdo principal -->
+            <div
+                class="row justify-content-center align-items-center text-center"
+            >
+                <!-- Imagem à esquerda -->
+                <div
+                    class="col-md-3 texto text-md-end text-center mb-3 mb-md-0"
+                >
+                    <img src="./imagens/balao.png" alt="Imagem" class="balao" />
+                </div>
+
+                <!-- Texto à direita com 3 títulos -->
+                <div
+                    class="col-md-6 texto text-md-start text-center position-relative"
+                >
+                    <!-- Texto 1 -->
+                    <div class="mb-3 texto-item texto-item-1">
+                        <span class="bullet-point">&#8226;</span>
+                        <h5>GESTÃO ESTRATÉGICA PERSONALIZADA</h5>
+                        <p>
+                            Desenvolvemos soluções sob medida para as
+                            necessidades de cada cliente.
+                        </p>
+                    </div>
+
+                    <!-- Texto 2 -->
+                    <div class="mb-3 texto-item texto-item-2">
+                        <span class="bullet-point">&#8226;</span>
+                        <h5>PLANEJAMENTO E TREINAMENTO</h5>
+                        <p>
+                            Oferecemos planos de ação e capacitação para a sua
+                            equipe.
+                        </p>
+                    </div>
+
+                    <!-- Texto 3 -->
+                    <div class="mb-3 texto-item texto-item-3">
+                        <span class="bullet-point">&#8226;</span>
+                        <h5>ANÁLISE E ACOMPANHAMENTO DOS RESULTADOS</h5>
+                        <p>
+                            Acompanhamos e demonstramos os impactos positivos em
+                            sua clínica.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="container-pagina5 d-flex justify-content-center align-items-center"
+        >
+            <img
+                src="./imagens/paginaPDF.png"
+                alt="Página5"
+                class="img-fluid"
+            />
+        </div>
+        <div
+            class="container-pagina6 d-flex justify-content-center align-items-center"
+        >
+            <img src="./imagens/pagina6.png" alt="Página5" class="img-fluid" />
+        </div>
+
+        <div
+            class="container-pagina7 d-flex justify-content-center align-items-center"
+        >
+            <img src="./imagens/pagina7.png" alt="Página5" class="img-fluid" />
+        </div>
+
         <div class="container my-5 destaques">
             <!-- Seção Serviços -->
             <section id="servicos" class="py-5">
