@@ -55,7 +55,7 @@ body {
 /* Quem Somos */
 
 .quem {
-    padding: 20rem;
+    padding: 10rem;
     background-color: #ebe0de; /* Cor de fundo suave */
 }
 
@@ -78,38 +78,26 @@ body {
 
 .title {
     color: #55663b;
-    margin-left: 4rem;
+    padding: auto;
 }
 
 /* Texto */
 .row .texto h5 {
     font-family: "Montserrat", sans-serif; /* Aplica a fonte Montserrat */
     margin-top: 3rem;
-    font-size: 20px;
+    font-size: 2rem;
     letter-spacing: 3px;
     font-weight: 300;
-    width: 25rem;
+    width: 30rem;
     margin-left: 10rem;
     text-align: justify;
     color: #55663b;
 }
 
-/* Texto */
-.row .texto2 h5 {
-    font-family: "Montserrat", sans-serif; /* Aplica a fonte Montserrat */
-    margin-top: 3rem;
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 300;
-    margin-left: 5rem;
-    color: #55663b;
-    width: 30rem;
-}
-
 /* O que entregamos*/
 
 .entrega {
-    padding: 20rem;
+    padding: 10rem;
 }
 
 .balao {
@@ -140,6 +128,17 @@ body {
     margin-left: 0;
 }
 
+/* Texto */
+.row .texto2 h5 {
+    font-family: "Montserrat", sans-serif; /* Aplica a fonte Montserrat */
+    margin-top: 3rem;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    margin-left: 5rem;
+    color: #55663b;
+    width: 30rem;
+}
 .text-center p {
     color: #796645;
 }
@@ -387,3 +386,153 @@ body {
 }
 
 /* Estilos para desktop */
+@media (min-width: 1150px) and (max-width: 1480px) {
+    .row .texto h5 {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1149px) {
+    .row .texto h5 {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        width: 20rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .row .texto h5 {
+        font-size: 1.5rem;
+        /* background-color: #55663b; */
+        margin-left: 0;
+        width: 100%;
+    }
+    .quem {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 1300px) {
+    .entrega {
+        padding: 2rem; /* Ajuste o padding para telas menores */
+    }
+
+    .row .texto2 {
+        text-align: center; /* Centraliza o texto */
+        margin: 0 auto; /* Garante centralização */
+    }
+
+    .texto-item {
+        width: 100%;
+    }
+
+    .subtitle2 {
+        position: static; /* Remove a posição absoluta */
+        display: block;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .entregamos {
+        margin-left: 0;
+        font-size: 2rem; /* Ajusta o tamanho do título */
+        text-align: center;
+    }
+
+    .linha2 {
+        margin: 0 auto;
+        width: 50%; /* Reduz a largura da linha */
+    }
+
+    .bullet-point {
+        display: none;
+    }
+    .texto2 {
+        text-align: center;
+    }
+    .texto-item-1 h5 {
+        font-size: 20px !important;
+        width: 100% !important;
+    }
+    .texto-item-2 h5 {
+        font-size: 20px !important;
+        width: 100% !important;
+    }
+    .texto-item-3 h5 {
+        font-size: 20px !important;
+        width: 100% !important;
+    }
+    .texto-item-1 {
+        margin-left: 0px;
+    }
+
+    .texto-item-2 {
+        margin-left: 0px;
+    }
+
+    .texto-item-3 {
+        margin-left: 0;
+    }
+    .row .texto2 h5 {
+        font-family: "Montserrat", sans-serif; /* Aplica a fonte Montserrat */
+        margin-top: 3rem;
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: 300;
+        margin-left: 0rem;
+        color: #55663b;
+        width: 30rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .balao {
+        display: none;
+    }
+
+    .ennt {
+        margin-left: -5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 989px) {
+    .servico-card h5 {
+        font-size: 1rem; /* Reduz o tamanho do título */
+    }
+
+    .servico-card p {
+        font-size: 0.7rem !important; /* Reduz o tamanho do texto */
+    }
+
+    .servico-card i {
+        font-size: 2rem; /* Reduz o tamanho do ícone, se necessário */
+    }
+}
+
+@media (max-width: 989px) {
+    .custom-header {
+        height: 40rem; /* Ajuste para a altura desejada */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .linha1 {
+        margin: 0 auto;
+        width: 50%; /* Reduz a largura da linha */
+    }
+
+    .custom-header img {
+        margin-top: 20px; /* Ajuste do espaçamento superior, se necessário */
+    }
+
+    .navbar {
+        margin-top: 10px; /* Ajuste do espaçamento superior da navbar */
+    }
+
+    .custom-header .linques .nav-item a {
+        margin-right: 0px;
+    }
+}
