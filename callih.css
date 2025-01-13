@@ -213,7 +213,7 @@ body {
 
 .fone {
     color: white !important;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif !important;
     font-weight: 300;
 }
 
